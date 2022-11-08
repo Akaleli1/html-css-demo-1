@@ -27,7 +27,7 @@
     width: 100px;
     background-color: red;
     position: relative;
-    display: inline-block;
+    
     left: 100px
 }
 
@@ -36,7 +36,7 @@
     width: 100px;
     background-color: blue;
     position: relative;
-    display: inline-block;
+    
     bottom: 100px
 }
 
@@ -45,7 +45,29 @@
     width: 100px;
     background-color: yellow;
     position: relative;
-    display: inline-block;
+    
     bottom: 200px;
     left: 200px;
+}
+
+table, th, td {
+    border: 1px solid black;
+  }
+
+  .pink{
+    height: 100px;
+    width: 100px;
+    background-color: pink;
+    position: absolute;
+    top: 200px;
+    left: 200px;
+    
+}
+
+.black{
+    height: 100px;
+    width: 100px;
+    background-color: black;
+    position: absolute;
+    
 }
